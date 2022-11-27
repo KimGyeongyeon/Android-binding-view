@@ -44,6 +44,9 @@ class MainActivity : AppCompatActivity() {
 //        binding = DataBindingUtil.setContentView(this, R.layout.activity_main_db)
 //        val textinfo = TextInfo("Data binding", R.color.white)
 //        binding.textbox = textinfo
+          
+//        /* ViewModel을 사용한다면 아래 코드 반드시 추가*/
+//        binding.lifecycleOwner = this
 //    }
 
 
